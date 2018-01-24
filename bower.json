@@ -21,6 +21,8 @@
   "dependencies": {
     "html5shiv": "~3.7.3",
     "respond": "~1.4.2",
-    "bootstrap": "^4.0.0"
+    "bootstrap": "^4.0.0",
+    "animate-sass": "^0.8.2",
+    "vanilla-lazyload": "^10.4.2"
   }
 }

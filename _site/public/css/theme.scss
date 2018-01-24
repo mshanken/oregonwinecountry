@@ -12,11 +12,22 @@
 @import "bower_components/bootstrap/scss/mixins";
 @import "custom";
 @import "bower_components/bootstrap/scss/bootstrap";
+@import "settings";
+@import "bower_components/animate-sass/animate";
 
 //
 // Custom style starts here
 // --------------------------------------------------
 
+img:not([src]) {
+    visibility: hidden;
+}
+/* Fixes Firefox anomaly during image load */
+@-moz-document url-prefix() {
+	img:-moz-loading {
+		visibility: hidden;
+	}
+}
 .jumbotron{
 	//color: $white;
 	text-shadow: 1px 1px $gray-400;

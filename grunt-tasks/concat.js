@@ -4,7 +4,6 @@ module.exports = {
   js: {
     src: [
       '<%= config.prod.script %>/vendor/jquery*.js',
-      '<%= config.prod.script %>/vendor/tether.js',
       '<%= config.prod.script %>/vendor/*.js',
       '<%= config.prod.script %>/app.js',
       '!<%= config.prod.script %>/vendor/modernizr.js',

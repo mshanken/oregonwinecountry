@@ -1,5 +1,6 @@
 (function () {
   "use strict";
 
-  console.log("loaded...");
+  //console.log("loaded...");
+  var myLazyLoad = new LazyLoad();
 })($);

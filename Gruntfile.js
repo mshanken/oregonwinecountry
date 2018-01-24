@@ -47,7 +47,7 @@ module.exports = function(grunt) {
   ]);
   grunt.registerTask('gh-pages', [
     // 'harp:dist',
-    // 'concat',
+    'concat',
     'uglify',
     'htmlmin',
     // 'cssmin',
