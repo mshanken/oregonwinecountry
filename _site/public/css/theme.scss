@@ -97,6 +97,9 @@ img:not([src]) {
 	#header .d-md-block{
 		display: inline !important;
 	}
+	.jumbotron {
+    	padding: 4rem 6rem;
+	}
 }
 @include media-breakpoint-up(lg) {
 	.vab{ width: 80%; }
