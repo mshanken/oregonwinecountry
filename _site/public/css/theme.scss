@@ -90,7 +90,7 @@ img:not([src]) {
 	.mt-md-3 {
 	    margin-top: 6rem!important;
 	}
-	.ve{ visibility: hidden; }
+	.ve{ visibility: hidden; margin-bottom: 0; }
 	
 }
 @include media-breakpoint-up(md) {
