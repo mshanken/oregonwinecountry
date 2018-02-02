@@ -50,7 +50,7 @@ img:not([src]) {
 .card{ margin-top: 20px; }
 .card a { font-weight: 700; color: #333;}
 .card img { margin-bottom: 25px; }
-.vab { position: absolute; bottom: 0; width: 72.66667%; padding: 0 15px; }
+.vab { position: absolute; bottom: 0; width: 72.66667%; padding: 0 15px; z-index: 100; }
 #header .row{
 	background-image: url('/images/Soter.jpg');
 	background-size: cover;
