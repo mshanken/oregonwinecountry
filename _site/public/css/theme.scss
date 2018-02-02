@@ -52,7 +52,7 @@ img:not([src]) {
 .card img { margin-bottom: 25px; }
 .vab { position: absolute; bottom: 0; width: 72.66667%; padding: 0 15px; z-index: 100; }
 #header .row{
-	background-image: url('/images/Soter.jpg');
+	background-image: url('../images/Soter.jpg');
 	background-size: cover;
 }
 @include media-breakpoint-down(sm) {
