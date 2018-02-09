@@ -47,6 +47,7 @@ npm-debug.log
 .cache
 .local
 www/
+.config/
 _site/public/js/vendor
 _site/public/css/_vendor
 _site/public/fonts/vendor
